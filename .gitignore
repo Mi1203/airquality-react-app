@@ -1,0 +1,54 @@
+# Dependencies
+/node_modules/
+
+# Build output
+/build/
+/dist/
+
+# Production
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Environment variables
+.env
+.env.local
+.env.*.local
+
+# Editor directories and files
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Cache
+/.parcel-cache
+/.cache
+.cache/
+coverage/
+
+# TypeScript
+*.tsbuildinfo
+
+# Local dev tools
+/.eslintcache
+.stylelintcache
+
+# Storybook
+/.storybook-out/
+/storybook-static/
+
+# Optional: Mac/Windows
+ehthumbs.db
+Desktop.ini
+
+.vs/
