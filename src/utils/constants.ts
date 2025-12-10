@@ -1,5 +1,15 @@
 ﻿import { PollutantType } from '../types/airQuality';
 
+
+export const pollutantMap: { [key: number]: string } = {
+    1: 'PM25',
+    2: 'PM10',
+    3: 'NO2',
+    4: 'O3',
+    5: 'SO2',
+    6: 'CO'
+};
+
 export const POLLUTANT_CONFIG = {
     [PollutantType.PM25]: {
         name: 'PM2.5',
@@ -65,3 +75,12 @@ export const PROVIDER_CONFIG = {
         color: '#f093fb'
     }
 };
+
+export const pollutantLabels = {
+    0: 'PM25',
+    1: 'PM10',
+    2: 'NO2',
+    3: 'O3',
+    4: 'SO2',
+    5: 'CO'
+}

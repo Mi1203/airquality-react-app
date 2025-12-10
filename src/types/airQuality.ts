@@ -7,6 +7,15 @@ export enum PollutantType {
     CO = 'CO'
 }
 
+export const PollutantMap: Record<number, PollutantType> = {
+    0: PollutantType.PM25,
+    1: PollutantType.PM10,
+    2: PollutantType.NO2,
+    3: PollutantType.O3,
+    4: PollutantType.SO2,
+    5: PollutantType.CO
+};
+
 export enum DataProvider {
     SaveEcoBot = 'SaveEcoBot',
     OpenAQ = 'OpenAQ',
