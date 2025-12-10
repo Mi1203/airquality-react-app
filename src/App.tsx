@@ -6,6 +6,7 @@ import { Layout } from './components/Layout';
 import { Dashboard } from './pages/Dashboard';
 import { DataImport } from './pages/DataImport';
 import { Reports } from './pages/Reports';
+import { PdfReport } from './pages/PdfReport';
 
 const theme = createTheme({
     palette: {
@@ -34,6 +35,7 @@ function App() {
                         <Route path="/" element={<Dashboard />} />
                         <Route path="/import" element={<DataImport />} />
                         <Route path="/reports" element={<Reports />} />
+                        <Route path="/pdfreports" element={<PdfReport />} />
                     </Routes>
                 </Layout>
             </Router>

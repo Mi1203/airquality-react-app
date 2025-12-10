@@ -73,6 +73,20 @@ export const Layout: React.FC<LayoutProps> = ({ children }) => {
                     >
                         Reports
                     </Button>
+                    <Button
+                        color="inherit"
+                        component={Link}
+                        to="/pdfreports"
+                        sx={{
+                            mx: 1,
+                            backgroundColor: isActive('/pdfreport') ? 'rgba(255,255,255,0.2)' : 'transparent',
+                            '&:hover': {
+                                backgroundColor: 'rgba(255,255,255,0.1)'
+                            }
+                        }}
+                    >
+                        PDF Reports
+                    </Button>
                 </Toolbar>
             </AppBar>
             <Container maxWidth="xl" sx={{ mt: 3, pb: 3 }}>
